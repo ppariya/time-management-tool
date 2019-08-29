@@ -1,0 +1,10 @@
+<div *ngIf="timesheet">
+  <h2>{{timesheet.date}} details</h2>
+  <div><span>Time-In: </span>{{timesheet.timeInHours}}:{{timesheet.timeInMinutes}}</div>
+  <div><span>Time-Out: </span>{{timesheet.timeOutHours}}:{{timesheet.timeInMinutes}}</div>
+  <button class="btn btn-success pull-right" (click)="delete()"> Delete </button>
+</div>
+
+
+
+

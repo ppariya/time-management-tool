@@ -1,0 +1,9 @@
+<H1>{{title}}</H1>
+<nav>
+  <a routerLink="/timesheets">Timesheets</a>
+  |
+  <a routerLink="/create-timesheet">Create New</a>
+  |
+  <a routerLink="/login" (click)="userService.logout()"> Log Out</a>
+</nav>
+<router-outlet></router-outlet>
