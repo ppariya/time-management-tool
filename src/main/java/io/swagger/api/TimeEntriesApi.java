@@ -29,16 +29,16 @@ public interface TimeEntriesApi {
         produces = { "application/json" }, 
         consumes = { "application/json" },
         method = RequestMethod.POST)
-    ResponseEntity<Void> timeEntriesPost(@ApiParam(value = "Username, start time, and end time." ,required=true )  @Valid @RequestBody TimeEntry body);
+    ResponseEntity<Void> timeEntriesPost(@ApiParam(value = "User_id, start time, and end time." ,required=true )  @Valid @RequestBody TimeEntry body);
 
 
-    @ApiOperation(value = "", nickname = "timeEntriesUsernameGet", notes = "", response = List.class, tags={ "time-entries", })
+    @ApiOperation(value = "", nickname = "timeEntriesUserIDGet", notes = "", response = List.class, tags={ "time-entries", })
     @ApiResponses(value = { 
         @ApiResponse(code = 200, message = "Success", response = List.class),
-        @ApiResponse(code = 404, message = "User with that username not found") })
-    @RequestMapping(value = "/time-entries/{username}",
+        @ApiResponse(code = 404, message = "User with that user id not found") })
+    @RequestMapping(value = "/time-entries/{userId}",
         produces = { "application/json" }, 
         method = RequestMethod.GET)
-    ResponseEntity<List<TimeEntry>> timeEntriesUsernameGet(@ApiParam(value = "",required=true) @PathVariable("username") String username);
+    ResponseEntity<List<TimeEntry>> timeEntriesUserIDGet(@ApiParam(value = "",required=true) @PathVariable(value = "userId") Long userId);
 
 }

@@ -1,10 +1,12 @@
 package io.swagger.controller;
 
 import io.swagger.api.UserApi;
+import io.swagger.model.TimeEntry;
 import io.swagger.model.UserModel;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.swagger.annotations.*;
 import io.swagger.repository.CredentialRepository;
+import io.swagger.repository.TimeEntriesRepository;
 import io.swagger.repository.UserRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -18,6 +20,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import javax.validation.Valid;
 import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
+import java.util.List;
 
 @javax.annotation.Generated(value = "io.swagger.codegen.languages.SpringCodegen", date = "2019-08-16T02:49:07.097Z")
 
@@ -32,6 +35,9 @@ public class UserApiController implements UserApi {
 
     @Autowired
     UserRepository userRepository;
+
+    @Autowired
+    TimeEntriesRepository timeEntriesRepository;
 
     @Autowired
     CredentialRepository credentialRepository;
@@ -49,7 +55,7 @@ public class UserApiController implements UserApi {
     }
 
     public ResponseEntity<UserModel> userGet(@ApiParam(value = "",required=true) @PathVariable("id") Long userId) {
-        UserModel user = userRepository.findOne(userId);
+        UserModel user = (UserModel) userRepository.findById(userId);
         return new ResponseEntity<UserModel>(user, HttpStatus.OK);
     }
 

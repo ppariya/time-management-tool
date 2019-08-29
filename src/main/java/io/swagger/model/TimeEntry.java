@@ -1,6 +1,9 @@
 package io.swagger.model;
 
+import java.sql.Timestamp;
 import java.util.Objects;
+
+import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
 import io.swagger.annotations.ApiModel;
@@ -23,19 +26,21 @@ import javax.validation.constraints.*;
 public class TimeEntry   {
   @Id
   @GeneratedValue(strategy = GenerationType.AUTO)
-  private Long id;
+  private long id;
 
   @ManyToOne
-  @JoinColumn(name = "user_id")
+  @JoinColumn(name = "userId")
   private UserModel userModel;
 
   @JsonProperty("startTime")
+  @JsonFormat(pattern="yyyy-MM-dd HH:mm", timezone = "EST")
   @Column(name="start_time")
-  private OffsetDateTime startTime = null;
+  private Timestamp startTime = null;
 
   @JsonProperty("endTime")
+  @JsonFormat(pattern="yyyy-MM-dd HH:mm", timezone = "EST")
   @Column(name="end_time")
-  private OffsetDateTime endTime = null;
+  private Timestamp endTime = null;
 
   public UserModel getUserModel() {
     return userModel;
@@ -45,58 +50,20 @@ public class TimeEntry   {
     this.userModel = userModel;
   }
 
-  public TimeEntry startTime(OffsetDateTime startTime) {
-    this.startTime = startTime;
-    return this;
-  }
-
-  /**
-   * Get startTime
-   * @return startTime
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public OffsetDateTime getStartTime() {
+  public Timestamp getStartTime() {
     return startTime;
   }
 
-  public void setStartTime(OffsetDateTime startTime) {
+  public void setStartTime(Timestamp startTime) {
     this.startTime = startTime;
   }
 
-  public TimeEntry endTime(OffsetDateTime endTime) {
-    this.endTime = endTime;
-    return this;
-  }
-
-  /**
-   * Get endTime
-   * @return endTime
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public OffsetDateTime getEndTime() {
+  public Timestamp getEndTime() {
     return endTime;
   }
 
-  public void setEndTime(OffsetDateTime endTime) {
+  public void setEndTime(Timestamp endTime) {
     this.endTime = endTime;
-  }
-
-
-  /**
-   * Convert the given object to string with each line indented by 4 spaces
-   * (except the first line).
-   */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -2,187 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a82f0f82-94ea-4614-9c8d-19737f33cc74" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_joschi_jackson_jackson_datatype_threetenbp_2_6_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_1_4_196.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_6_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_8_5_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_8_5_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_5_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_2_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_0_12_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_5_0_12_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_3_6_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_21_0_GA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_1_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reflections_reflections_0_9_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_1_5_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_1_5_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_5_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_5_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_1_5_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_1_5_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_13_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_1_11_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_13_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_4_3_13_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_13_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_13_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_13_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_13_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_13_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_4_3_13_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_13_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_13_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_13_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_13_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_threeten_threetenbp_1_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.swagger-codegen-ignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.swagger-codegen/VERSION" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/swagger/RFC3339DateFormat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/swagger/Swagger2SpringBoot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/swagger/api/ApiOriginFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/swagger/api/ApiResponseMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/swagger/api/LoginApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/swagger/api/LogoutApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/swagger/api/TimeEntriesApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/swagger/api/UserApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/swagger/configuration/CustomInstantDeserializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/swagger/configuration/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/swagger/configuration/JacksonConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/swagger/configuration/SwaggerDocumentationConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/swagger/controller/LoginApiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/swagger/controller/LogoutApiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/swagger/controller/TimeEntriesApiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/swagger/controller/UserApiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/swagger/exception/ApiException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/swagger/exception/NotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/swagger/model/CredentialModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/swagger/model/TimeEntry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/swagger/model/UserModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/swagger/repository/CredentialRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/swagger/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swagger-spring.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/io/swagger/RFC3339DateFormat.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/io/swagger/Swagger2SpringBoot$ExitException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/io/swagger/Swagger2SpringBoot.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/io/swagger/api/ApiOriginFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/io/swagger/api/ApiResponseMessage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/io/swagger/api/LoginApi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/io/swagger/api/LogoutApi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/io/swagger/api/TimeEntriesApi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/io/swagger/api/UserApi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/io/swagger/configuration/CustomInstantDeserializer$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/io/swagger/configuration/CustomInstantDeserializer$10.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/io/swagger/configuration/CustomInstantDeserializer$11.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/io/swagger/configuration/CustomInstantDeserializer$12.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/io/swagger/configuration/CustomInstantDeserializer$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/io/swagger/configuration/CustomInstantDeserializer$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/io/swagger/configuration/CustomInstantDeserializer$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/io/swagger/configuration/CustomInstantDeserializer$5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/io/swagger/configuration/CustomInstantDeserializer$6.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/io/swagger/configuration/CustomInstantDeserializer$7.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/io/swagger/configuration/CustomInstantDeserializer$8.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/io/swagger/configuration/CustomInstantDeserializer$9.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/io/swagger/configuration/CustomInstantDeserializer$FromDecimalArguments.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/io/swagger/configuration/CustomInstantDeserializer$FromIntegerArguments.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/io/swagger/configuration/CustomInstantDeserializer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/io/swagger/configuration/HomeController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/io/swagger/configuration/JacksonConfiguration.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/io/swagger/configuration/SwaggerDocumentationConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/io/swagger/model/CredentialModel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/io/swagger/model/TimeEntry.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/io/swagger/model/UserModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/swagger/repository/TimeEntriesRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/timetracking/Configuration/SecurityConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/timetracking/Configuration/ThymeleafConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/timetracking/Configuration/WebMvcConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/timetracking/Controller/AuthorizationController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/timetracking/Controller/TimesheetController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/timetracking/Controller/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/timetracking/Model/Role.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/timetracking/Model/Timesheet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/timetracking/Model/TimesheetDisplay.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/timetracking/Model/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/timetracking/Repository/RoleRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/timetracking/Repository/TimesheetRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/timetracking/Repository/UserRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/timetracking/Service/TimesheetService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/timetracking/Service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/timetracking/TimetrackingApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/swagger/api/LoginApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/swagger/api/LoginApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/swagger/api/LogoutApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/swagger/api/LogoutApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/swagger/api/TimeEntriesApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/swagger/api/TimeEntriesApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/swagger/controller/TimeEntriesApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/swagger/controller/TimeEntriesApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/swagger/controller/UserApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/swagger/controller/UserApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/swagger/model/TimeEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/swagger/model/TimeEntry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/swagger/model/UserModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/swagger/model/UserModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/swagger/repository/CredentialRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/swagger/repository/CredentialRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/swagger/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/swagger/repository/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/fragment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/newTimesheet.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/registration.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/userTimesheet.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/timetracking/TimetrackingApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/swagger/api/TimeEntriesApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/swagger/api/TimeEntriesApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/swagger/controller/TimeEntriesApiController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/swagger/controller/TimeEntriesApiController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/swagger/controller/UserApiController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/swagger/controller/UserApiController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/swagger/model/TimeEntry.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/swagger/model/TimeEntry.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/swagger/model/UserModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/swagger/model/UserModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/swagger/repository/CredentialRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/swagger/repository/CredentialRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/swagger/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/swagger/repository/UserRepository.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -303,5 +143,27 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/io/swagger/model/TimeEntry.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/io/swagger/controller/TimeEntriesApiController.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="userId" />
+        <watch expression="userId" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

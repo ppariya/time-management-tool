@@ -24,7 +24,6 @@ import java.util.List;
 
 @Api(value = "logout", description = "the logout API")
 public interface LogoutApi {
-
     @ApiOperation(value = "", nickname = "logoutPost", notes = "", tags={ "logout", })
     @ApiResponses(value = { 
         @ApiResponse(code = 200, message = "Success") })
@@ -32,5 +31,4 @@ public interface LogoutApi {
         produces = { "application/json" }, 
         method = RequestMethod.POST)
     ResponseEntity<Void> logoutPost();
-
 }

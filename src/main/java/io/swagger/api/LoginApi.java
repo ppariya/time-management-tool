@@ -35,5 +35,4 @@ public interface LoginApi {
         consumes = { "application/json" },
         method = RequestMethod.POST)
     ResponseEntity<String> loginPost(@ApiParam(value = "Username and password." ,required=true )  @Valid @RequestBody CredentialModel body);
-
 }
